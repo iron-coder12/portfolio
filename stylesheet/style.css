@@ -1,0 +1,157 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #161625;
+  color: white;
+}
+
+span {
+  color: green;
+}
+
+p {
+  color: white;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+/* Title Section */
+#hero {
+  text-align: left;
+  color: white;
+  height: 100vh;
+}
+
+#hero img {
+  height: 500px;
+}
+
+#hero #big-h1 {
+  margin-top: 90px;
+}
+
+#hero .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.linke {
+  font-size: 3rem;
+  color: #0e76a8;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.tweet {
+  font-size: 3rem;
+  cursor: pointer;
+  color: #2e90ad;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.github {
+  font-size: 3rem;
+  cursor: pointer;
+  color: white;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.twitch {
+  color: blueviolet;
+  font-size: 3rem;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.yt {
+  color: red;
+  font-size: 3rem;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.discord {
+  color: #7289d9;
+  font-size: 3rem;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+#about {
+  height: 50vh;
+  background-color: #161625;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#about h1 {
+  text-align: center;
+}
+
+#about img {
+  margin-left: 70px;
+  margin-bottom: 30px;
+  padding-left: 50%;
+}
+
+#about p {
+  font-size: 1.5rem;
+}
+
+.custom-shape-divider-bottom-1629537810 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1629537810 svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 201px;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1629537810 .shape-fill {
+  fill: #2B2B2B;
+}
+/*# sourceMappingURL=style.css.map */

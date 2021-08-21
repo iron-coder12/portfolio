@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+.intro .typing {
+  margin-left: 10px;
+  position: relative;
+}
+
+.intro .typing::after {
+  content: "";
+  position: absolute;
+  right: -7px;
+  width: 1px;
+  height: 100%;
+  border-right: 2px solid white;
+  -webkit-animation: blink 0.5s infinite ease;
+  animation: blink 0.5s infinite ease;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
