@@ -10,7 +10,7 @@ html {
 body{
     text-align: center;
     font-family: sans-serif;
-    background-color:#161625;
+background-color: #20202c;
     color: white;
 }
 
@@ -20,7 +20,7 @@ span{
 
 p{
   color: white;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: sans-serif;
 }
 
@@ -53,6 +53,7 @@ p{
    text-align: left;
    color: white;
    height: 100vh;
+   background-color: #20202c;
 
 
    img{
@@ -66,7 +67,7 @@ p{
   }
   
   #hero .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 1% 15% 7%;
   }
 
   .linke  {
@@ -118,7 +119,7 @@ p{
     }
 
     height: 50vh;
-    background-color:#161625;
+    background-color:#20202c;
     text-align: left;
     display: flex;
 
@@ -134,24 +135,47 @@ p{
 
   }
 
-  .custom-shape-divider-bottom-1629537810 {
+
+
+#tech{
+
+  background-color: #20202c;
+
+  img{
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #20202c;
+  }
+  img:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+}
+
+#projects{
+  background-color: rgb(121, 34, 207);
+
+  .custom-shape-divider-top-1629781593 {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1629537810 svg {
+.custom-shape-divider-top-1629781593 svg {
     position: relative;
     display: block;
-    width: calc(300% + 1.3px);
-    height: 201px;
-    transform: rotateY(180deg);
+    width: calc(100% + 1.3px);
+    height: 150px;
 }
 
-.custom-shape-divider-bottom-1629537810 .shape-fill {
-    fill: #2B2B2B;
+.custom-shape-divider-top-1629781593 .shape-fill {
+    fill: #20202C;
 }
+
+}
+
